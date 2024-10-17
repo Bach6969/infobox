@@ -1,0 +1,48 @@
+/* Info box styling */
+.infobox {
+    width: 250px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #a2a9b1;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  /* Image placeholder */
+  .infobox img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #a2a9b1;
+    margin-bottom: 10px;
+  }
+  
+  /* Info box title */
+  .infobox-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #cedff2;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #a2a9b1;
+    margin-bottom: 10px;
+  }
+  
+  /* Info box rows */
+  .infobox-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  /* Labels and values inside each row */
+  .infobox-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .infobox-value {
+    text-align: right;
+    color: #666;
+  }
+  
